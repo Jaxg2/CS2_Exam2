@@ -10,7 +10,7 @@ class Movie
 {
 private:
 	Person director;
-	Person cast;
+	vector <Person> cast;
 	int runtime;
 public:
 	bool isLongMovie(int min);

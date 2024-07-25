@@ -19,6 +19,11 @@ string Person::getLastName()
 	return last_name;
 }
 
+
+void Person::setDob()
+{
+	dob = 0;
+}
 int Person::getDob()
 {
 	return dob;

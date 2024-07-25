@@ -13,6 +13,7 @@ public:
 	Person(string first_name, string last_name, int dob);
 	string getFirstName();
 	string getLastName();
+	void setDob();
 	int getDob();
 };
 
